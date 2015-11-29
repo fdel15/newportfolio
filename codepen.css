@@ -41,12 +41,13 @@ home
 */
 
 .section {;
-  padding-bottom: 20px;
+  padding-bottom: 30%;
 }
 
 #home {
   background: url("http://photos.visitphilly.com/philadelphia-skyline-background-image2-1800vp.jpg") no-repeat center top;
   background-attachment: fixed;
+  padding-top: 50px;
 }
 
 #home-content {
@@ -101,22 +102,22 @@ about
 
 #about {
   padding-top: 20px;
-  background: url("http://cmxhub.com/wp-content/uploads/2015/03/o-PHILADELPHIA-facebook.jpg") no-repeat center top;
-  background-attachment: fixed;
-  background-size: cover;
-  -webkit-transform: translateZ(0);
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
 }
 
 #about .content {
-  color: white;
+  color: black;
   font-size: 1.25em;
   margin-top: 5%;
-  text-shadow: 2px 2px black;
 }
 
 #code-camp-link {
   text-decoration: none;
-  color: white;
+  color: blue;
   font-size: 1.15em;
   font-weight: bold;
 }
@@ -134,9 +135,13 @@ portfolio
 
 #portfolio {
   padding-top: 50px;
-  background: url(http://static.comicvine.com/uploads/original/10/100757/2009668-rocky_iv_originalk.jpg) no-repeat center top;
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: silver;
+  background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+  linear-gradient(155deg, #d00 23px, transparent 23px),
+  linear-gradient(335deg, #b00 23px, transparent 23px),
+  linear-gradient(155deg, #d00 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
   padding-bottom: 50px;
   color: white;
   text-shadow: 2px 2px #000
