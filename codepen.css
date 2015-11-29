@@ -104,6 +104,7 @@ about
   background: url("http://cmxhub.com/wp-content/uploads/2015/03/o-PHILADELPHIA-facebook.jpg") no-repeat center top;
   background-attachment: fixed;
   background-size: cover;
+  -webkit-transform: translateZ(0);
 }
 
 #about .content {
