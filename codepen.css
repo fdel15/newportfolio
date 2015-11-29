@@ -40,10 +40,7 @@ home
 *********
 */
 
-.section {
-  margin: 0;
-  min-height: 100vh;
-  max-height: 100%;
+.section {;
   padding-bottom: 20px;
 }
 
@@ -96,36 +93,6 @@ social media links
   text-align: center;
 }
 
-@media all and (max-width: 468px) {
-  #home-content h1 {
-    font-size: 3.0em;
-  }
-  .social button {
-    font-size: 1.0em;
-    text-align: left;
-    padding-right: 25%;
-  }
-  .social-img {
-    width: 20px;
-    margin: 0 5%;
-  }
-}
-
-@media all and (min-width: 992px) {
-  #small-text {
-    font-size: 1.0em;
-    padding: 7.5px 5px
-  }
-  .no-margin {
-    margin-left: 0px;
-  }
-  .social-img {
-    width: 15px;
-  }
-  .media-button {
-    margin: 5%;
-  }
-}
 /*
 *********
 about
@@ -247,4 +214,41 @@ footer li {
   list-style: none;
   display: inline;
   padding-right: 2%;
+}
+
+/*
+*********
+media queries
+*********
+*/
+
+@media all and (max-width: 468px) {
+  #home-content h1 {
+    font-size: 3.0em;
+  }
+  .social button {
+    font-size: 1.0em;
+    text-align: left;
+    padding-right: 25%;
+  }
+  .social-img {
+    width: 20px;
+    margin: 0 5%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  #small-text {
+    font-size: 1.0em;
+    padding: 7.5px 5px
+  }
+  .no-margin {
+    margin-left: 0px;
+  }
+  .social-img {
+    width: 15px;
+  }
+  .media-button {
+    margin: 5%;
+  }
 }
